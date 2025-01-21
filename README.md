@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# React Website Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Built a fully responsive React website from scratch, using React Hooks and React Router. This project is aimed at beginner React developers and showcases how to structure and build a multi-component website.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+This React project is a responsive website built with:
+- **React Hooks** for managing state and lifecycle events.
+- **React Router** for seamless navigation across pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Features
+- Responsive design for all devices.
+- Clean and modular component-based architecture.
+- Includes a homepage, cards section, and a footer.
+- Used React best practices to ensure scalability and maintainability.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Challenges Faced
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### CSS Organization and Styling
+My main difficulty was working with CSS, particularly with properties like `align-items` and `display`. To overcome this, I adopted a method of adding temporary background colors (e.g., red) to elements while working on their layout. This technique helped me visualize the structure and alignment more effectively.
 
-### `npm run build`
+### Image Importing
+Another challenge was importing images for the card components. I initially faced a bug that prevented dynamic imports. To resolve this, I defined constants for each image path and imported them one by one, as the project doesn’t include a large number of images.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Timeline
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Setting Up**: Created the React app via the terminal.
+2. **Button Component**: Built a reusable button component.
+3. **Hero Section**: Added a dynamic hero component.
+4. **Pages**: Set up multiple pages using React Router.
+5. **Card Components**: Created reusable and responsive card components.
+6. **Footer Component**: Designed and implemented a responsive footer.
+7. **Backgrounds**: Replaced video backgrounds with static images for performance.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Installation & Setup
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run this project locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Navigate to the project directory:
+   ```bash
+   cd <project-folder>
+   ```
 
-## Learn More
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React.js
+- CSS3
+- React Router
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## How to Contribute
 
-### Making a Progressive Web App
+If you'd like to contribute to this project:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Fork the repository.
+2. Create a new branch for your feature/fix:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of changes"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a Pull Request.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is open-source and available under the [MIT License](LICENSE).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For questions or feedback, please reach out at:
+- **GitHub**: [HERE](https://github.com/AimTheSun)
